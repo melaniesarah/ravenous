@@ -1,8 +1,14 @@
-In order to run this code, a config.js file must be created in src/util. The config.js file contains: 
+In order to run this code
+1. A `config.js` file must be created in 'src/util/'. The `config.js` file contains: 
+
+```javascript
     export const config = {
         API_KEY: 'yourApiKey'
     };
-where yourApiKey must be obtained by getting a Yelp Api account at https://www.yelp.com/developers and creating a new app at https://www.yelp.com/developers/v3/manage_app. Once your app is created, the manage app page will show you your API Key
+```
+2. Login to Yelp or create a Yelp Api account at https://www.yelp.com/developers 
+3. Creating a new app at https://www.yelp.com/developers/v3/manage_app. 
+4. Once your app is created, the manage app page will show you your API Key. Copy the string and put it into the `config.js` file where 'yourApiKey' is in the code above.
 
 ## Available Scripts
 
